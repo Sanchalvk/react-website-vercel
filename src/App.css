@@ -28,7 +28,7 @@
 .products {
   background-image: url('https://picsum.photos/1920/1080?random=2');
   background-position: center;
-  background-size: cover;  /* 'fill' was invalid – changed to 'cover' */
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
