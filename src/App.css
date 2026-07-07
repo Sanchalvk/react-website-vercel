@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
 .services {
   background-image: url('https://picsum.photos/1920/1080?random=1');
   background-position: center;
@@ -10,7 +28,7 @@
 .products {
   background-image: url('https://picsum.photos/1920/1080?random=2');
   background-position: center;
-  background-size: cover;    /* changed from 'fill' to 'cover' – 'fill' is invalid */
+  background-size: cover;  /* 'fill' was invalid – changed to 'cover' */
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
